@@ -1,0 +1,7 @@
+camararig2:誤差多いやつ、exporingの論文に書いてたように実装、頭だけ増幅
+camerarig3:頭だけ回転に使ってる。前フレームから計算するのではなく、現在の角度をα倍
+camerarig4:camerarig3のやり方で頭増幅、手も増幅
+camerarig5:camerarig2のやり方で手も増幅するやつ。
+headredirection3：使ってる。親オブジェクトを回転：値が1のとき増幅倍率2倍
+camerarig6:仮想の手の位置一致、親オブジェクト回転
+
