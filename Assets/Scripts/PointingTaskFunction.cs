@@ -605,8 +605,8 @@ public class PointingTaskFunction : MonoBehaviour
             realHeadPosition = cameraRig.GetRealHeadPosition();
         }
         circleCenter = realHeadPosition;
-        // circleCenter.y -= 0.2f;
-        circleCenter.y += 3.2f;
+        circleCenter.y -= 0.2f;
+        // circleCenter.y += 3.2f;
         Debug.Log("---dbg2---cerclecenter: " + string.Join(",", circleCenter));
         Debug.Log("---dbg2---realHeadPosition: " + string.Join(",", realHeadPosition));
 
